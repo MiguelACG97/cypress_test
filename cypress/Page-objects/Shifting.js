@@ -5,8 +5,5 @@ export class ShiftingPage {
     
     }
 
-    CountElement() {
-        cy.get('ul').find('li').its('length').should('eq', 5)
     
-    }
 }
